@@ -33,11 +33,12 @@ body{
 	height: 70px;
 	border-radius: 35px;
 	background: #3AC371;
-	position: absolute;
-	left: 100%;
+	position: fixed;
+	left: 90%;
 	top: 50%;
 	transform: translate(-50%,-50%);
   position: absolute ,;
+  z-index: 1;
 }
 .white12{
 	width: 80px;
