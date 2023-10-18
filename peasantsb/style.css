@@ -34,9 +34,10 @@ body{
 	border-radius: 35px;
 	background: #3AC371;
 	position: absolute;
-	left: 50%;
+	left: 100%;
 	top: 50%;
 	transform: translate(-50%,-50%);
+  position: absolute ,;
 }
 .white12{
 	width: 80px;
