@@ -98,10 +98,10 @@ body{
     --header-height: 100px;
     --header-height-min: 80px;
   }
+
 }
 .btn{
-  background-color:  rgb(4, 128, 89);}
-
+  background-color:  rgb(0, 131, 133);}
 /* Fonts */
 :root {
   --body-font: "Poppins", sans-serif;
