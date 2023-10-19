@@ -66,26 +66,26 @@
 </nav>
       <div class="container mt-3">
         <h2>Basic Information</h2>
-        <form action="">
+        <form action="#">
           <div class="mb-3 mt-3">
             <label for="name">Full Name:</label>
-            <input type="name" class="form-control" id="name" placeholder="Full Name" name="name">
+            <input type="name" class="form-control" id="name" placeholder="Full Name" name="name"  required>
           </div>
           <div class="mb-3 mt-3">
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"  required>
           </div>
           <div class="mb-3">
             <label for="numb">Phone Number:</label>
-            <input type="name" class="form-control" id="numb" placeholder="Phone Number" name="number">
+            <input type="name" class="form-control" id="numb" placeholder="Phone Number" name="number"  required>
           </div>
           <div class="mb-3">
             <label for="Add">Your city:</label>
-            <input type="address" class="form-control" id="Add" placeholder="Your city" name="Address">
+            <input type="address" class="form-control" id="Add" placeholder="Your city" name="Address"  required>
           </div>
 
           <label for="sel1" class="form-label"> Interested in :</label>
-    <select class="form-select" id="sel1" name="sellist1">
+    <select class="form-select" id="sel1" name="sellist1"  required >
       <option class="opt">Study Visa </option>
       <option class="opt">Tourist Visa</option>
       <option class="opt">Work Permit</option>
@@ -93,14 +93,26 @@
       <option class="opt">Family Reunion Visa</option>
       <option class="opt">Spouse Visa</option>
     </select>
-        </form>
 
-        <div class="form-check mb-3">
+
+    <label for="sel1" class="form-label"> Preferred Study level :</label>
+    <select class="form-select" id="sel1" name="sellist1"  required>
+      <option class="opt">Postgraduate </option>
+      <option class="opt">Undergraduate</option>
+      <option class="opt">Vocational</option>
+      <option class="opt">Doctorate</option>
+      
+    </select>
+    <br>
+    <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+<br>
+        <!--<div class="form-check mb-3">
           <label class="form-check-label">
             <input class="form-check-input" type="checkbox" name="remember"> Remember me
           </label>
-        </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        </div>-->
+        
       </div>
       <br> 
       <footer>
