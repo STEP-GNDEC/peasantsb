@@ -699,11 +699,13 @@ h5 {
 
 .image-overlay .product-image {
   overflow: hidden;
+  size: 100%;
 }
 
 .image-overlay .product-image img {
   transform: translateY(0);
   transition: transform 0.6s ease-in-out;
+  height: 400px;
 }
 
 .box-slide {
