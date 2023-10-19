@@ -11,35 +11,38 @@
     height: auto;
     font-size: 20px;
     box-shadow: 0px 0px 5px 0px black;
-    color:  rgb(4, 128, 89);
+    color:  rgb(0, 131, 133);
     
 }
 
 .navbar-nav{
     margin-left: 100px;
-    color:  rgb(4, 128, 89);
+    color:   rgb(0, 131, 133);
     justify-content: center;
     text-decoration: none;
 }
 
+.imgEngi{
+    max-width: 500px;
+} 
 
 .navbar-nav a:hover{
-    background-color: rgb(4, 128, 89);
+    background-color: rgb(0, 131, 133);
     border-radius: 6px;
     color:white;
 }
 
 .btn{
-    background-color:  rgb(4, 128, 89);
+    background-color:   rgb(0, 131, 133);
 }
 
 .btn:hover{
     background-color: transparent;
-    color:  rgb(4, 128, 89);
+    color:  rgb(0, 131, 133);
 }
 
 .opt:hover{
-    background-color: rgb(4, 128, 89) ;
+    background-color: rgb(0, 131, 133) ;
 
 }
 
@@ -57,7 +60,7 @@
   }
 
   h1{
-    color:  rgb(4, 128, 89);
+    color:  rgb(0, 131, 133);
 }
 
 .img2{
@@ -66,7 +69,7 @@
 
 
 footer{
-    background-color:  rgb(4, 128, 89);
+    background-color:  rgb(0, 131, 133);
     color: white;
 }
 .fa {
