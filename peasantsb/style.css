@@ -55,7 +55,7 @@ body{
   
   float: right;
 }
-.white::before{
+.white12::before{
 	content: "";
 	top: 65px;
 	left: -15px;
@@ -64,8 +64,9 @@ body{
 	border-color: transparent #efecec transparent transparent;
 	position: fixed;
 	transform: rotate(-50deg) rotateX(-55deg);
+  float: right;
 }
-.white::after{
+.white12::after{
 	content: "";
 	top: 63px;
 	left: -4px;
@@ -74,6 +75,7 @@ body{
 	border-color: transparent #3AC371 transparent transparent;
 	position: fixed;
 	transform: rotate(-51deg) rotateX(-50deg);
+  float: right;
 }
 .fas{
 	left: 17px;
