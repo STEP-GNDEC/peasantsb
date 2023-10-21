@@ -99,13 +99,12 @@ body{
 }
 
 .innerGrp{
-  display: inline-flex;
+  
+  width: 100%;
 }
 
-.btn-group{
-  max-width: 780px;
-  width: 50%;
-}
+
+
 :root {
   --accent-color: #0d0d0d;
   --bs-gray-100: white;
