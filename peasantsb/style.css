@@ -86,6 +86,26 @@ body{
 	transform: rotate(90deg);
   z-index: 1;
 }
+
+.grp{
+  border: 2px solid black;
+}
+
+#visaHead{
+  
+  background-color: transparent;
+  text-align: center;
+  
+}
+
+.innerGrp{
+  display: inline-flex;
+}
+
+.btn-group{
+  max-width: 780px;
+  width: 50%;
+}
 :root {
   --accent-color: #0d0d0d;
   --bs-gray-100: white;
