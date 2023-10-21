@@ -88,17 +88,17 @@ body{
 }
 :root {
   --accent-color: #0d0d0d;
-  --bs-gray-100: #f3f3f3;
-  --bs-gray-200: #e7e5e2;
-  --bs-primary: #787d62;
+  --bs-gray-100: white;
+  --bs-gray-200:white;
+  --bs-primary: #010101;
   --bs-secondary: #F6F5F2;
   --bs-primary-rgb: 120, 125, 98;
   --bs-body-bg-rgb: 246, 245, 242;
-  --bs-light: #fff;
+  --bs-light: white;
   --bs-dark: #000;
   --navbar-color-color: #131814;
-  --swiper-theme-color: #787d62 !important;
-  --swiper-pagination-color: #787d62 !important;
+  --swiper-theme-color: #000000 !important;
+  --swiper-pagination-color: #030303 !important;
 
 }
 
@@ -306,7 +306,7 @@ h5 {
 }
 
 .btn.btn-outline-light {
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(43, 35, 35, 0.5);
   color: var(--bs-light);
 }
 
@@ -858,7 +858,7 @@ h5 {
 
 #header-nav .offcanvas.show {
   z-index: 9999;
-  background-color: var(--bs-light);
+  background-color: white;
 }
 
 #header-nav .offcanvas-end {
@@ -933,7 +933,7 @@ h5 {
 
 @media only screen and (max-width: 1200px) {
   #billboard .banner-content {
-    background-color: rgba(246, 245, 242, 0.5);
+    background-color:rgb(255,255,255);
     height: 100%;
   }
 
