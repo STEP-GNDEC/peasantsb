@@ -88,7 +88,9 @@ body{
 }
 
 .grp{
+  padding: 5px;
   border: 2px solid black;
+  font-size: 20px;
 }
 
 #visaHead{
@@ -98,11 +100,12 @@ body{
   
 }
 
-.innerGrp{
-  
-  width: 100%;
-}
 
+
+.btn-group{
+  width: 50%;
+  
+}
 
 
 :root {
