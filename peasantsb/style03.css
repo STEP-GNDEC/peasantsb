@@ -12,6 +12,10 @@ body{
     --heading-font: "Cinzel", sans-serif;
   }
   
+ 
+  table, th, td {
+    border:1px solid black;
+  }
 
 .navbar{
     width: 100%;
